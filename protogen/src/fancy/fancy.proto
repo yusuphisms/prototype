@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package protogen.fancy.package;
+
+message Letter {
+    string from = 1;
+    string to = 2;
+    string body = 3;
+    int32 count = 4;
+}
